@@ -76,7 +76,7 @@ args参数说明：
 | -avoidDbs       | 要避免删除的hive库，包含库下所有的表分区，逗号隔开           |
 | -avoidTbls      | 要避免删除的hive表，包含表下所有的分区，逗号隔开             |
 | -avoidTbls-file | 用要避免删除的表，用文件存放在hdfs，必须是“库.表名”的形式，包含表下所有的分区 |
-| -expire         | 过期的数据                                                   |
+| -expire         | 过期的数据时间，也就是清理多少天之前的数据，这是个参数很重要，必须大于0                                                   |
 | -hdfsroot       | hdfs根路径，HA模式如 hdfs://bigdatacluster，单点模式如：hdfs://xxxx:50070 |
 
 必要的准备
