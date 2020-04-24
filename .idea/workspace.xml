@@ -2,76 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ae2274-81d3-410a-8777-a908694758af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data-manager/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/derby.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/run/HdfsFileClean.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/run/HiveTableClean.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/run/ParseFsimageFile2Hive.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/domain/LogBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/domain/ParamOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/file/HdfsFileClean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/table/HiveTableClean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/ArgsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/HdfsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/JdbcHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/PropsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/common/shell/MyUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/common/shell/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/fsimage/GenerateFsimageTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/fsimage/GetFromFsImageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/resources/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/resources/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/resources/hive-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/test/java/com/xkj/mlrc/clean/util/HdfsUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/test/java/com/xkj/mlrc/clean/util/JdbcHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-manager/src/test/java/com/xkj/mlrc/fsimage/GetFromFsImageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/HdfsFileClean.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/HiveTableClean.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/ParseFsimageFile2Hive.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/domain/LogBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/domain/ParamOption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/file/HdfsFileClean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/table/HiveTableClean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/util/ArgsUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/util/DateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/util/HdfsUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/util/JdbcHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/util/PropsUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/common/shell/MyUserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/common/shell/Shell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/fsimage/GenerateFsimageTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/fsimage/GetFromFsImageInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/core-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hdfs-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hive-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xkj/mlrc/clean/util/HdfsUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xkj/mlrc/clean/util/JdbcHelperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xkj/mlrc/fsimage/GetFromFsImageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,103 +15,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-manager/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xkj/mlrc/fsimage/GenerateFsimageTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            <state relative-caret-position="197">
+              <caret line="19" selection-start-line="19" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/fsimage/GenerateFsimageTable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/domain/ParamOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="61" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run/ParseFsimageFile2Hive.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/fsimage/GetFromFsImageInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/file/HdfsFileClean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-manager/run/HdfsFileClean.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/table/HiveTableClean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5975">
-              <caret line="269" column="16" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-manager/run/HiveTableClean.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-manager/run/ParseFsimageFile2Hive.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="30" column="70" selection-start-line="30" selection-end-line="30" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/domain/LogBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-manager/README.MD">
+        <entry file="file://$PROJECT_DIR$/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="518">
+                <caret line="117" column="215" selection-start-line="117" selection-start-column="215" selection-end-line="117" selection-end-column="215" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -271,6 +136,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/file/HdfsFileClean.java" />
         <option value="$PROJECT_DIR$/run/HdfsFileClean.sh" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -283,7 +149,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="data-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="data-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -304,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,20 +191,119 @@
             <path>
               <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mlrc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="clean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="clean" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="clean" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="clean" type="462c0819:PsiDirectoryNode" />
+              <item name="table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="clean" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="shell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="fsimage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587735818755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587738099230" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -481,6 +457,7 @@
       <workItem from="1587719596941" duration="273000" />
       <workItem from="1587720022774" duration="3774000" />
       <workItem from="1587730233133" duration="3691000" />
+      <workItem from="1587735998857" duration="1935000" />
     </task>
     <servers />
   </component>
@@ -517,7 +494,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88890000" />
+    <option name="totallyTimeSpent" value="90825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,9 +507,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.86893207" visible="true" weight="0.16151386" />
-      <window_info id="Structure" order="1" sideWeight="0.13106796" side_tool="true" visible="true" weight="0.16151386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8673139" visible="true" weight="0.16311301" />
+      <window_info id="Structure" order="1" sideWeight="0.13247173" side_tool="true" weight="0.16311301" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -545,7 +523,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -627,25 +605,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-hive_2.11/2.3.0/spark-hive_2.11-2.3.0-sources.jar!/org/apache/spark/sql/hive/HiveContext.scala" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.0/lombok-1.18.0-sources.jar!/lombok/AllArgsConstructor.java" />
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="312" column="38" selection-start-line="312" selection-start-column="38" selection-end-line="312" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.0/lombok-1.18.0-sources.jar!/lombok/Builder.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/args4j/args4j/2.33/args4j-2.33-sources.jar!/org/kohsuke/args4j/Option.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/env/pro/db_server.properties" />
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/PropsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/PropsUtil.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.0/spark-sql_2.11-2.3.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -653,16 +615,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/test/java/com/xkj/mlrc/clean/util/HdfsUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="27" column="47" selection-start-line="27" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-manager/src/test/java/com/xkj/mlrc/clean/util/HdfsUtilsTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3-sources.jar!/org/apache/hadoop/fs/FileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -690,99 +643,27 @@
     <entry file="jar://D:/software/jdk181/src.zip!/java/sql/DriverManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/env/test/config.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/env/dev/db_server.properties" />
-    <entry file="file://$PROJECT_DIR$/data-manager/src/test/java/com/xkj/mlrc/clean/util/JdbcHelperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/JdbcHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="160" column="23" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-manager/src/test/java/com/xkj/mlrc/clean/util/JdbcHelperTest.java" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/JdbcHelper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/env/pro/exclusion_tables" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/env/test/exclusion_tables" />
     <entry file="file://$PROJECT_DIR$/target/classes/exclusion_tables" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/env/pro/exclusion_tables.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/env/test/exclusion_tables.txt" />
-    <entry file="file://$PROJECT_DIR$/data-manager/src/test/java/com/xkj/mlrc/fsimage/GetFromFsImageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-manager/src/test/java/com/xkj/mlrc/fsimage/GetFromFsImageTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/env/dev/exclusion_tables.txt" />
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/domain/ParamOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/ArgsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/domain/ParamOption.java" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/ArgsUtil.java" />
     <entry file="file://$PROJECT_DIR$/bin/HdfsLogClean.sh" />
     <entry file="file://$PROJECT_DIR$/bin/HiveTableClean.sh" />
     <entry file="file://$PROJECT_DIR$/bin/ParseFsimageFile2Hive.sh" />
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/HdfsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11175">
-          <caret line="459" column="26" selection-start-line="459" selection-start-column="26" selection-end-line="459" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/common/shell/MyUserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/util/HdfsUtils.java" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/common/shell/MyUserInfo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/env/pro/config.properties" />
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/resources/hdfs-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/common/shell/Shell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/resources/core-site.xml" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/resources/hdfs-site.xml" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/common/shell/Shell.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3-sources.jar!/org/apache/hadoop/fs/Trash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -790,93 +671,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/resources/config.properties">
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/resources/config.properties" />
+    <entry file="file://$PROJECT_DIR$/data-manager/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/file/HdfsFileClean.java" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/table/HiveTableClean.java" />
+    <entry file="file://$PROJECT_DIR$/data-manager/run/HiveTableClean.sh" />
+    <entry file="file://$PROJECT_DIR$/data-manager/README.MD" />
+    <entry file="file://$PROJECT_DIR$/data-manager/run/HdfsFileClean.sh" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/fsimage/GenerateFsimageTable.java" />
+    <entry file="file://$PROJECT_DIR$/data-manager/run/ParseFsimageFile2Hive.sh" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/domain/LogBean.java" />
+    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/fsimage/GetFromFsImageInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xkj/mlrc/fsimage/GenerateFsimageTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="197">
+          <caret line="19" selection-start-line="19" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xkj/mlrc/clean/domain/ParamOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state relative-caret-position="475">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/file/HdfsFileClean.java">
+    <entry file="file://$PROJECT_DIR$/run/ParseFsimageFile2Hive.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-75" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/table/HiveTableClean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5975">
-          <caret line="269" column="16" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/run/HiveTableClean.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/README.MD">
+    <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="518">
+            <caret line="117" column="215" selection-start-line="117" selection-start-column="215" selection-end-line="117" selection-end-column="215" />
+          </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/run/HdfsFileClean.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/fsimage/GenerateFsimageTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/run/ParseFsimageFile2Hive.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="30" column="70" selection-start-line="30" selection-end-line="30" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/clean/domain/LogBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-manager/src/main/java/com/xkj/mlrc/fsimage/GetFromFsImageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
