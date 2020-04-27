@@ -107,7 +107,7 @@ args参数说明：
 
 #### step2:解析fsimage文件
 
-执行项目run目录下的`ParseFsimageFile2Hive.sh`脚本，会远程ssh到NameNode执行一系列shell并解析fsimage文件上传到hdfs
+在NameNode的节点下执行项目run目录下的`ParseFsimageFile2Hive.sh`脚本，会执行一系列shell并解析fsimage文件上传到hdfs
 
 #### step3:清理数据
 
